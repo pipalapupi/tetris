@@ -262,7 +262,19 @@ a:hover{
     justify-content: center;
     position: relative;
 }
-.img_up, .img_down, .img_left, .img_right:hover{
+.img_up:hover{
+    width:220px;
+    height:220px;
+} 
+.img_down:hover{
+    width:220px;
+    height:220px;
+}
+.img_left:hover{
+    width:220px;
+    height:220px;
+} 
+.img_right:hover{
     width:220px;
     height:220px;
 }
