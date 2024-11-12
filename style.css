@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Monofett&family=Monomaniac+One&display=swap');
+body{
+    background-image: url("images1.jpg");
+    background-size: cover;
+    height: 100%;
+}
+#score{
+    display:none;
+}
+.h{
+    color:#F72585;
+    font-size: 110px;
+    margin: auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Monofett';
+    letter-spacing: 10px;
+}
+.play{
+    color:#F51AA4;
+    background-color:#4D07AB ;
+    font-size: 96px;
+    width: 406px;
+    height: 150px;
+    border-radius:93.5px;
+    margin: 20px auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Monomaniac One';
+}
+.play:hover{
+    background-color: #F51AA4;
+    color:#4D07AB;
+}
+.controls{
+    color:#F51AA4;
+    background-color:#4D07AB;
+    font-size: 96px;
+    width: 406px;
+    height: 150px;
+    border-radius:93.5px;
+    margin: 20px auto; 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Monomaniac One';
+}
+.controls:hover{
+    background-color: #F51AA4;
+    color:#4D07AB;
+}
+.steam{
+    color:#F51AA4;
+    background-color:#4D07AB ;
+    font-size: 96px;
+    width: 406px;
+    height: 150px;
+    border-radius:93.5px;
+    margin: auto; 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Monomaniac One';
+    white-space: pre-line;
+}
+.steam:hover{
+    background-color:#F51AA4;
+    color: #4D07AB;
+}
+a{
+    text-decoration: none;
+    color:#F51AA4;
+    width: 317px;
+    height:114px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+a:hover{
+    color:#4D07AB;
+}
+.level{
+    color: #F51AA4;
+    font-family: 'Monomaniac One';
+    font-size: 80px;
+    width: 350px;
+    height:168px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -50px;
+    left: 0px;
+
+}
+.level_value{
+    color: #8D37FF;
+    font-family:'Monomaniac One' ;
+    font-size:64px;
+    width: 274px;
+    height:156px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 37px;
+    top: 50px;
+}
+.score{
+    color: #F51AA4;
+    font-family: 'Monomaniac One';
+    font-size: 80px;
+    width: 274px;
+    height: 153px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 115px;
+    left:45px;
+}   
+.score_value{
+    color: #8D37FF;
+    font-family:'Monomaniac One' ;
+    font-size:64px;
+    width: 274px;
+    height:156px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:215px;
+    left:37px;
+}
+.champion{
+    color:#F51AA4;
+    font-family: 'Monomaniac One';
+    font-size: 80px;
+    width: 224px;
+    height: 163px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    top:-50px;
+    right:250px;
+}
+.champion_name{
+    color: #8D37FF;
+    font-family:'Monomaniac One' ;
+    font-size:64px;
+    width: 274px;
+    height:156px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:70px;
+    right:220px;
+}
+.record {
+    color:#F51AA4;
+    font-family: 'Monomaniac One';
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 170px;
+    right:240px;
+}
+.record_value{
+    color: #8D37FF;
+    font-family:'Monomaniac One' ;
+    font-size:64px;
+    width: 274px;
+    height:156px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:250px;
+    right:220px;
+}
+.player{
+    color:#F51AA4;
+    font-family: 'Monomaniac One';
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:350px;
+    left:90px;
+}
+.player_name{
+    color: #8D37FF;
+    font-family:'Monomaniac One' ;
+    font-size:64px;
+    width: 274px;
+    height:156px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 430px;
+    left:50px;
+}
+.back{
+    color:#F51AA4;
+    background-color:#4D07AB;
+    font-family: 'Monomaniac One';
+    font-size: 80px;
+    border-radius:93.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:690px;
+    right:190px; 
+}
+.back:hover{
+    background-color: #F51AA4;
+    color:#4D07AB;
+}
+.again{
+    color:#F51AA4;
+    background-color:#4D07AB;
+    font-family: 'Monomaniac One';
+    font-size: 80px;
+    border-radius:93.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:550px;
+    right:190px; 
+}
+.again:hover{
+    background-color: #F51AA4;
+    color:#4D07AB;
+}
+.up, .down, .left, .right{
+    color:#F51AA4;
+    font-size: 60px;
+    font-family: 'Monomaniac One';
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left:300px;
+}
+
+.img_up, .img_down, .img_left, .img_right{
+    width:200px;
+    height:200px;
+    margin:50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.up{
+    top:40px;
+}
+.down{
+    top:280px;
+}
+.left{
+    top:540px;
+}
+.right{
+    top:790px;
+}
+.back_con{
+    color:#F51AA4;
+    background: #4D07AB;
+    border-radius: 70px;
+    font-size: 70px;
+    width:200px;
+    height:100px;
+    font-family: 'Monomaniac One';
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right:100px;
+    
+}
+.back_con:hover{
+    background:#F51AA4 ;
+}
+.tetris {
+    background: black;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:0px;
+    left:32%;
+}
+  
