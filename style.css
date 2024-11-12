@@ -262,6 +262,10 @@ a:hover{
     justify-content: center;
     position: relative;
 }
+.img_up, .img_down, .img_left, .img_right:hover{
+    width:220px;
+    height:220px;
+}
 .up{
     top:40px;
 }
