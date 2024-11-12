@@ -301,7 +301,7 @@ a:hover{
     display:flex;
     align-items: center;
     justify-content: center;
-    position: sicky;
+    position: sticky;
     right:100px;
     
 }
