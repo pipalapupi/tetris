@@ -320,12 +320,12 @@ a:hover{
 }
 @media (orientation: portrait) and (max-width: 450px) {
     .h{
-        font-size: 25px;
+        font-size: 45px;
         width: 100px;
         height: 60px;
     }
     .play{
-        font-size: 65px;
+        font-size: 40px;
         width: 175px;
         height: 80px;
         border-radius: 50px;
@@ -341,7 +341,7 @@ a:hover{
         border-radius: 50px;
     }
     a{
-        font-size: 65px;
+        font-size: 40px;
         width: 150px;
         height: 80px;
         border-radius: 50px;
