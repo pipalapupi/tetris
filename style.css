@@ -320,7 +320,7 @@ a:hover{
 }
 @media (orientation: portrait) and (max-width: 450px) {
     .h{
-        font-size: 50px;
+        font-size: 45px;
         width: 100px;
         height: 60px;
         margin: 10px auto;
@@ -334,17 +334,22 @@ a:hover{
         height: 80px;
         border-radius: 50px;
         position:absolute;
-        top: 100px;
+        top: 50px;
+        left:50%;
     }
     .controls{
         width: 175px;
         height: 80px;
         border-radius: 50px;
+        top: 75px;
+        left:50%;
     }
     .steam{
         width: 175px;
         height: 80px;
         border-radius: 50px;
+        top: 100px;
+        left:50%;
     }
     a{
         font-size: 50px;
