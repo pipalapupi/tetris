@@ -360,4 +360,16 @@ a:hover{
         width: 175px;
         height: 80px;   
      }
+    .img_up, .img_down, .img_left, .img_right{
+        width:20px;
+        height:20px;
+    }
+    .up, .down, .left, .right{
+        font-size: 30px;
+    }
+    .back_con{
+        font-size: 20px;
+        width:25px;
+        height:25px;
+    }
 }
