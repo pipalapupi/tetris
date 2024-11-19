@@ -360,16 +360,39 @@ a:hover{
         width: 175px;
         height: 80px;   
      }
-    .img_up, .img_down, .img_left, .img_right{
-        width:20px;
-        height:20px;
+     .img_up, .img_down, .img_left, .img_right{
+        width:100px;
+        height:100px;
+        position:absolute;
     }
     .up, .down, .left, .right{
         font-size: 30px;
+        left: 175px;
+        position:absolute;
+    }
+    .img_down{
+        top: 150px;
+    }
+    .down{
+        top:150px;
+    }
+    .img_left{
+        top:300px;
+    }
+    .left{
+        top:320px;
+    }
+    .img_right{
+        top: 450px;
+    }
+    .right{
+        top:475px
     }
     .back_con{
-        font-size: 20px;
-        width:25px;
-        height:25px;
+        font-size: 25px;
+        width:65px;
+        height:45px;
+        right:25px;
+        top:20px;
     }
 }
