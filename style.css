@@ -323,6 +323,10 @@ a:hover{
         font-size: 45px;
         width: 100px;
         height: 60px;
+        margin: 10px auto;
+        display:flex;
+        align-items: center;
+        justify-content: center;
     }
     .play{
         font-size: 40px;
