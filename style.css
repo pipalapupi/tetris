@@ -320,7 +320,7 @@ a:hover{
 }
 @media (orientation: portrait) and (max-width: 450px) {
     .h{
-        font-size: 70px;
+        font-size: 50px;
         width: 100px;
         height: 60px;
         margin: 10px auto;
@@ -329,15 +329,10 @@ a:hover{
         justify-content: center;
     }
     .play{
-        font-size: 65px;
         width: 175px;
         height: 80px;
         border-radius: 50px;
         margin: 10px auto;
-        display:flex;
-        align-items: center;
-        justify-content: center;
-        font-family: 'Monomaniac One';
     }
     .controls{
         width: 175px;
