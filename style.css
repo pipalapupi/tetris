@@ -320,7 +320,7 @@ a:hover{
 }
 @media (orientation: portrait) and (max-width: 450px) {
     .h{
-        font-size: 75px;
+        font-size: 25px;
         width: 100px;
         height: 60px;
     }
