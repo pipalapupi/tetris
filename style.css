@@ -329,6 +329,11 @@ a:hover{
         width: 175px;
         height: 80px;
         border-radius: 50px;
+        margin: 10px auto;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Monomaniac One';
     }
     .controls{
         width: 175px;
