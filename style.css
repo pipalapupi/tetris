@@ -407,4 +407,72 @@ a:hover{
         left:10px;
         top:20px;
     }
+    .champion, .champion_name, .score, .score_value, .player, .player_name, .record, .record_value, .level, .level_value, .again, .back{
+        font-size: 40px;
+    }
+    .score{
+        position:absolute;
+        top: 0px;
+        left:0px;
+    }
+    .score_value{
+        position:absolute;
+        top: 50px;
+        left:0px;
+    }
+    .level{
+        position:absolute;
+        top: 100px;
+        left:0px;
+    }
+    .level_value{
+        position:absolute;
+        top: 150px;
+        left:0px;
+    }
+    .player{
+        position:absolute;
+        top: 200px;
+        left:0px;
+    }
+    .player_name{
+        position:absolute;
+        top: 250px;
+        left:0px;
+    }
+    .champion{
+        position:absolute;
+        top: 300px;
+        left:0px;
+    }
+    .champion_name{
+        position:absolute;
+        top: 350px;
+        left:0px;
+    }
+    .record{
+        position:absolute;
+        top: 400px;
+        left:0px;
+    }
+    .record_value{
+        position:absolute;
+        top: 150px;
+        left:0px;
+    }
+
+    .again, .back{
+        width:100px;
+        height:60px;
+    }
+    .again{
+        position:absolute;
+        top: 500px;
+        left:30%;
+    }
+    .back{
+        position:absolute;
+        top: 500px;
+        right:5%;
+    }
 }
