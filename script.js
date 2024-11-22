@@ -389,8 +389,8 @@ window.addEventListener('resize', (e) => {
 
 function resizeWindow(canvas) {
   
-  canvas.style.width = `${window.innerWidth / 2}px`;
-  canvas.style.height = `${window.innerHeight / 2}px`;
+  canvas.style.width = `${window.innerWidth / 4}px`;
+  canvas.style.height = `${window.innerHeight / 4}px`;
   canvas.innerHTML = `
   <p>window.innerWidth: ${window.innerWidth}</p>
   <p>window.innerHeight: ${window.innerHeight}</p>
