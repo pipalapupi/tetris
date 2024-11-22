@@ -327,7 +327,7 @@ a:hover{
         display:flex;
         align-items: center;
         justify-content: center;
-        letter-spacing: 2px;
+        letter-spacing: 5px;
     }
     .play{
         font-size: 50px;
