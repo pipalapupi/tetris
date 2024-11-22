@@ -395,4 +395,5 @@ function resizeWindow(canvas) {
   <p>window.innerWidth: ${window.innerWidth}</p>
   <p>window.innerHeight: ${window.innerHeight}</p>
   `;
+    location.reload
 }
